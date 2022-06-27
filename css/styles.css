@@ -1,0 +1,207 @@
+body{
+  text-align: center;
+}
+
+#header{
+  font-family: Cormorant Garamond;
+  padding: 0;
+}
+
+
+.name{
+  font-size: 30px;
+  padding-right: 50px;
+}
+
+.header-nav{
+  color: #676767;
+  font-size: 18px;
+  padding: 10px 50px;
+}
+
+.header-nav:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.header-nav-demo{
+  color: #676767;
+  font-size: 18px;
+  margin: 0 60px;
+}
+
+.header-nav-demo:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+#grettings{
+  background-color: #FBEEE6;
+  text-align: left;
+  padding-top: 110px;
+}
+
+.grettings-text{
+    padding: 70px;
+}
+
+.grettings-text-para1{
+  color: #454443;
+  font-family: Cormorant Garamond;
+font-size: 70px;
+padding: 10px 0px;
+}
+
+.grettings-text-para2{
+  font-family: Merriweather;
+  padding: 10px 0px;
+}
+
+.grettings-button-fontawesome{
+  color: white;
+  padding: 0px 10px;
+}
+
+.grettings-button-href{
+  text-decoration: none;
+}
+
+.grettings-button-text{
+  color: white;
+  margin: 0;
+}
+
+.grettings-button:hover, .grettings-button-fontawesome:hover, .grettings-button-text:hover{
+  color: #B6B4B4;
+}
+
+
+
+
+  #introduction{
+padding: 50px 0;
+}
+
+.introduction-text{
+  margin: 0 300px;
+}
+
+.introduction-text-para1, .studies-text-para1{
+  font-family: Cormorant Garamond;
+font-size: 70px;
+}
+
+.introduction-text-para2, .studies-text-para2{
+  font-family: Merriweather;
+  padding: 10px 0px;
+}
+
+/* project.html */
+
+.project-stuff-content{
+  font-family: Merriweather;
+
+}
+
+
+/* footer */
+
+.social-media{
+  background-color: #FBEEE6;
+  padding: 50px 0;
+}
+
+.social-media-row{
+  padding: 0 300px;
+}
+
+.social-media-tag{
+  color: black;
+  text-decoration: none;
+}
+
+.social-media-tag:hover{
+  color: #EA5327;
+}
+
+.copy-rights{
+
+}
+
+.copy-rights-para{
+padding: 30px 0px;
+}
+
+.copy-rights-fontawesome{
+  padding: 7px;
+}
+
+
+/* aboutme */
+
+
+
+.features-inner{
+  padding: 30px 30px;
+}
+
+.scroll{
+  font-family: Merriweather;
+}
+
+.aboutme-studies{
+  animation-name: travell;
+  animation-duration: 6s;
+}
+
+@keyframes travell {
+  from{transform: translateX(-500px);}
+  to{transform: translateX(0);}
+}
+
+.scroll-lines{
+  animation-name: travell-lines;
+  animation-duration: 6s;
+}
+
+@keyframes travell-lines{
+  from{transform: translateX(500px);}
+  to{transform: translateX(0);}
+}
+
+#studies{
+  background-color: #FBEEE6;
+  padding: 100px 50px;
+}
+
+.studies-img{
+  margin-left: 170px;
+}
+
+.studies-text{
+  padding: 50px 80px 50px 0;
+    text-align: left;
+}
+
+#hobbies{
+  background-color: black;
+}
+
+#hobbies:hover{
+  background-color: white;
+}
+
+.hobbies-text{
+  background: -webkit-linear-gradient(#FD3900, #0071FD, #00FD30);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* contact Me */
+#contactme{
+  text-align: left;
+  padding-top: 200px;
+}
+.submit{
+  margin: 10px 0;
+}
